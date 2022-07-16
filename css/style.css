@@ -1,0 +1,51 @@
+body {
+    max-width: 80rem;
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.big-name {
+    font-size: 8rem;
+    font-weight: 800;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    background-position: white;
+    gap: 2rem;
+}
+
+.navbar-heading {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.introduction-block {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex;
+}
