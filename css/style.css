@@ -1,5 +1,6 @@
 body {
     max-width: 72rem;
+    padding: 4rem;
     display: flex; 
     flex-direction: column;
     align-items: flex-start;
@@ -36,6 +37,7 @@ p {
 .big-name {
     font-size: 8rem;
     font-weight: 800;
+    position: relative;
 }
 
 
@@ -64,12 +66,54 @@ p {
     align-items: flex;
 }
 
+.name-container {
+    position: relative;
+}
+
+.name-tagline {
+    position: absolute;
+    top: 100%;
+    left: 40%;
+}
+
 .statements {
-    margin-bottom: 2rem;
+    margin-bottom: 12rem;
 }
 
 .statement-block {
     margin: 8rem 0rem 8rem 0rem;
+}
+
+.job-title-anchor {
+    position: relative;
+}
+
+.job-title {
+    position: absolute;
+    top: 160%;
+    left: 0%;
+
+}
+
+.love-anchor {
+    position: relative;
+}
+
+.love-creating {
+    position: absolute;
+    top: -60%;
+    right: 0%;
+
+}
+
+.current-role-anchor {
+    position: relative;
+}
+
+.current-role {
+    position: absolute;
+    top: 160%;
+    left: 0;
 }
 
 .full-width-section {
