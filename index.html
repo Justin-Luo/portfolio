@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/24a9de3314.js" crossorigin="anonymous"></script>
   </head>
   <body>
 
@@ -38,28 +39,62 @@
         <h1 class="big-name">JUSTIN LUO</h1>
     </div>
 
-    <div>
-        <h1>I'm a <b>product designer</b>.</h1>
-        <h1>I love creating <b>impactful and intuitive experiences</b> for all people.</h1>
-        <h1>Currently, I'm a</h1>
-        <h1><b>Designer @ Microsoft Teams</b></h1>
+    <div class="statements">
+        <div class="statement-block">
+            <h1>I'm a <b>product designer</b>.</h1>
+        </div>
+        <div class="statement-block">
+            <h1>I love creating <b>impactful and intuitive </b></h1>
+            <h1>experiences for all people.</h1>
+        </div>
+        <div class="statement-block">
+            <h1>Currently, I'm a</h1>
+            <h1><b>Designer @ Microsoft Teams</b></h1>
+        </div>
+
+      
+
     </div>
 
     <!-- My work -->
+    
 
-    <div>
-        <h1>My work</h1>
-        <div>
-            <h2>Teams EDU</h2>
-            <h1>Home Page</h1>
+    <div class="full-width-section">
+        <div class="section-heading">
+            <h1><b>My work</b></h1>
         </div>
-        <div>
-            <h2>Teams</h2>
-            <h1>Connect Chat</h1>
-        </div>
-        <div>
-            <h2>HCI Research</h2>
-            <h1>Annotate VR</h1>
+        <div class="project-grid">
+            <div class="project-row">
+                <a href="./pages/home-page.html" class="project-block home-page">
+                    <div class="project-info">
+                        <h2>Teams EDU</h2>
+                        <h1><b>Home Page</b></h1>
+                    </div>
+                </a>
+
+
+
+                <a href="./pages/connect-chat.html" class="project-block connect-chat">
+                    <div class="project-info">
+                        <h2>Teams</h2>
+                        <h1><b>Connect Chat</b></h1>
+                    </div>
+                </a>
+            </div>
+            <div class="project-row">
+                <a href="./pages/annotate-vr.html" class="project-block annotate-vr">
+                    <div class="project-info">
+                        <h2>HCI Research</h2>
+                        <h1><b>Annotate VR</b></h1>
+                    </div>
+                </a>
+                <a href="./pages/accessible-circuits.html" class="project-block accessible-circuits">
+                    <div class="project-info">
+                        <h2>HCI Research</h2>
+                        <h1><b>Accessible Circuits</b></h1>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 
@@ -67,17 +102,30 @@
     <!-- Get in Touch -->
 
     <div>
-        <h1>Get in touch if you...</h1>
-        <h2>Love collaborating with a diverse group of people</h2>
-        <h2>Priotize empathy building in your process</h2>
-        <h2>Obsess over solving today’s most difficult problems</h2>
-        <h2>Push the boundaries of innovation and creativity</h2>
+        <div class="section-heading">
+            <h1><b>Get in touch if you...</b></h1>
+        </div>
+        <div class="sm-statement-block">
+            <h2><span class="blue-bold">Love</span> collaborating with a diverse group of people</h2>
+        </div>
+        <div class="sm-statement-block">
+            <h2><span class="blue-bold">Prioritize</span> empathy building in your process</h2>
+        </div>
+        <div class="sm-statement-block">
+            <h2><span class="blue-bold">Obsess</span> over solving today’s most difficult problems</h2>
+        </div>
+        <div class="sm-statement-block">
+            <h2><span class="blue-bold">Push</span> the boundaries of innovation and creativity</h2>
+        </div>
 
-        <button type="button">Say hi</button>
+        <button type="button" class="contact-button">Say hi</button>
+        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-instagram"></i>
     </div>
     <!-- Footer -->
-    <footer>
-
+    <footer class="home-footer">
+        <p>&copy; 2022 Justin Luo. Designed and developed by me :)</p>
     </footer>
 	<script src="./js/main.js"></script>
   </body>

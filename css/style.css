@@ -1,5 +1,5 @@
 body {
-    max-width: 80rem;
+    max-width: 72rem;
     display: flex; 
     flex-direction: column;
     align-items: flex-start;
@@ -11,12 +11,26 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 3rem;
     font-weight: 400;
+    margin: 0;
 }
 
 h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 2rem;
     font-weight: 400;
+    margin: 0;
+
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.section-heading {
+    margin-bottom: 4rem;
 }
 
 .big-name {
@@ -38,7 +52,7 @@ h2 {
     text-decoration: none;
     color: black;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -49,3 +63,110 @@ h2 {
     justify-content: center;
     align-items: flex;
 }
+
+.statements {
+    margin-bottom: 2rem;
+}
+
+.statement-block {
+    margin: 8rem 0rem 8rem 0rem;
+}
+
+.full-width-section {
+    width: 100%;
+}
+
+.project-grid {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    margin-bottom: 8rem;
+}
+
+.project-row {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    gap: 2rem;
+}
+
+.project-block {
+    width: 50%;
+    min-width: 10rem;
+    aspect-ratio: 1/1;
+    background-color: beige;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+
+.project-info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 1rem;
+    padding-left: 3rem;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.project-info:hover {
+    opacity:1;
+}
+
+.home-page {
+    background-image: url("../img/home-page.png");
+    background-size: cover;
+}
+
+.connect-chat {
+    background-image: url("../img/connect-chat.png");
+    background-size: cover;
+
+}
+
+.annotate-vr {
+    background-image: url("../img/annotate-vr.png");
+    background-size: cover;
+
+}
+
+.accessible-circuits {
+    background-image: url("../img/accessible-circuits.png");
+    background-size: cover;
+}
+
+.sm-statement-block {
+    margin: 4rem 0 4rem 0;
+}
+
+
+.blue-bold {
+    color: #326BFF;
+    font-weight: 700;
+}
+
+
+.contact-button {
+    outline: 1px black;
+    background-color: transparent;
+    width: 12rem;
+    border-radius: 1rem;
+    height: 4rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+footer {
+    background-color: white;
+    width: 100%;
+    margin-top: 12rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+
