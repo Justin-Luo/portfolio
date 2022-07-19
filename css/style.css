@@ -101,7 +101,7 @@ p {
 
 .love-creating {
     position: absolute;
-    top: -60%;
+    top: -80%;
     right: 0%;
 
 }
@@ -114,6 +114,20 @@ p {
     position: absolute;
     top: 160%;
     left: 0;
+}
+
+.underline span {
+    display: inline-block;
+  }
+  
+.underline span::after
+{
+    content: '';
+    height: 0.5rem;
+    background: #326BFF;
+    border-radius: 1rem;
+    display: block;
+    margin-top: 0.5rem;
 }
 
 .full-width-section {
@@ -194,16 +208,46 @@ p {
 
 
 .contact-button {
-    outline: 1px black;
-    background-color: transparent;
+    border: 2px solid black;
+    background-color: white;
     width: 12rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     height: 4rem;
     font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
+.button-link {
+    text-decoration: none;
+}
+.contact-button:hover {
+    border: 2px solid #326BFF;
+    color: white;
+    background-color: #326BFF;
+}
+
+.icon-buttons-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+.icon-button {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: black;
+    transition: 0.3s;
+}
+
+.icon-button:hover {
+    color: #326BFF;
+}
 
 footer {
     background-color: white;
