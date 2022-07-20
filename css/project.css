@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-top: 1rem;
 }
 
 .one-point {
@@ -196,4 +197,18 @@
 .flag-mini {
     width: 2.25rem;
     height: auto;
+}
+
+.margin-spacer {
+    margin: 4rem 0 4rem 0;
+}
+
+.margin-sm-spacer {
+    margin: 2rem 0 2rem 0;
+}
+
+.flex-column-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
