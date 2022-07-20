@@ -1,11 +1,10 @@
 body {
     max-width: 72rem;
-    padding: 4rem;
+    padding: 2rem 4rem 0rem 4rem;    
     display: flex; 
     flex-direction: column;
     align-items: flex-start;
     margin: auto;
-    margin-top: 2rem;
 }
 
 h1 {
@@ -23,11 +22,51 @@ h2 {
 
 }
 
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 300;
+    margin: 1rem;
+    text-align: center;
+}
+
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+}
+
+h7 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin: 0;
+}
+
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 2rem;
+    margin: 0;
 }
 
 .section-heading {
@@ -81,7 +120,7 @@ p {
 }
 
 .statement-block {
-    margin: 8rem 0rem 8rem 0rem;
+    margin: 8rem 0rem 4rem 0rem;
 }
 
 .job-title-anchor {
@@ -170,6 +209,11 @@ p {
     transition: 0.3s;
 }
 
+.teams-logo {
+    height: 4rem;
+    width: 4rem;
+}
+
 .project-info:hover {
     opacity:1;
 }
@@ -185,8 +229,8 @@ p {
 
 }
 
-.annotate-vr {
-    background-image: url("../img/annotate-vr.png");
+.vr-notes {
+    background-image: url("../img/vr-notes.png");
     background-size: cover;
 
 }
@@ -252,9 +296,13 @@ p {
 footer {
     background-color: white;
     width: 100%;
-    margin-top: 12rem;
-    margin-bottom: 4rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
 
+.medium-img {
+    width: 6rem !important;
+    height: auto;
+}
