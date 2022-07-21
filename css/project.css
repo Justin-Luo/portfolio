@@ -251,3 +251,14 @@
     row-gap: 2rem;
     column-gap: 4rem;
 }
+
+.abstract-body {
+    line-height: 2rem;
+}
+
+.view-button {
+    font-weight: 400;
+    font-size: 1rem;
+    width: 10rem;
+    height: 4rem;
+}

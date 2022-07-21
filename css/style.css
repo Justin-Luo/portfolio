@@ -71,6 +71,8 @@ p {
 
 .section-heading {
     margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .big-name {
@@ -353,4 +355,19 @@ footer {
 .medium-img {
     width: 6rem !important;
     height: auto;
+}
+
+.research-tag {
+    margin-top: 1rem !important;
+}
+
+.text-link {
+    text-underline-offset: 4px;
+}
+
+.text-link:visited {
+
+    text-decoration: none; 
+    color: black; 
+
 }
