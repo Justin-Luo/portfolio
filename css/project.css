@@ -1,4 +1,5 @@
 .project-intro {
+
     margin-top: 8rem;
 }
 
@@ -254,6 +255,8 @@
 
 .abstract-body {
     line-height: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .view-button {
@@ -261,4 +264,97 @@
     font-size: 1rem;
     width: 10rem;
     height: 4rem;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 0.75rem;
+    }
+    p {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .project-info h2 {
+       font-size: 1.5rem;
+    }
+
+    .project-info h1 {
+        font-size: 2rem;
+    }
+
+    .teams-logo {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .list-points {
+        gap: 1.5rem;
+    }
+
+    .bullet-image {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+
+    .quotes-group {
+        gap: 4rem;
+    }
+
+
+
+    .webpart-ex {
+        height: 20vw;
+        width: auto;
+        max-width: 90%;
+
+        margin: 2rem 2rem 1rem 2rem;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 848px) {
+
+    .t-sp-shell {
+        width: 90%;
+    }
+
+        .chart-img {
+        min-width: 0;
+        width: 90%;
+    }
+
+    .teams-sp {
+        min-width: 0;
+        width: 90%;
+    }
+
+    .social-media-column {
+        width: 100%;
+        min-width: 0;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 409px) {
+    .opportunity-statement {
+        flex-wrap: wrap;
+    }
+
 }
