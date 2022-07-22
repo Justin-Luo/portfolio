@@ -255,8 +255,6 @@
 
 .abstract-body {
     line-height: 2rem;
-    display: flex;
-    flex-direction: column;
 }
 
 .view-button {
@@ -264,6 +262,16 @@
     font-size: 1rem;
     width: 10rem;
     height: 4rem;
+}
+
+.text-link-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-link {
+    text-decoration: underline;
+    color: black;
 }
 
 
@@ -356,5 +364,16 @@
     .opportunity-statement {
         flex-wrap: wrap;
     }
+    
+    .text-section {
+        margin-top: 4rem;
+    }
 
+    .project-intro {
+        margin-top: 4rem;
+    }
+
+    .quotes-group {
+        margin-top: 2rem;
+    }
 }
