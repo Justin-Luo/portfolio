@@ -203,6 +203,20 @@ p {
     margin-top: 0.5rem;
 }
 
+.white-underline {
+    display: inline-block
+}
+
+.white-underline::after
+{
+    content: '';
+    height: 0.5rem;
+    background: #ffffff;
+    border-radius: 1rem;
+    display: block;
+    margin-top: 0.5rem;
+}
+
 .underline-sm {
     display: inline-block
 }
@@ -374,6 +388,20 @@ footer {
 
 }
 
+.typewrite {
+    color: black;
+    cursor: default;
+    animation: blink .5s step-end infinite alternate;
+}
+
+
+@keyframes blink {
+    50% {
+      border-color: transparent
+    }
+}
+
+
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
     .project-info h2 {
@@ -404,6 +432,11 @@ footer {
     }
 
     .underline span::after {
+        height: 0.4rem;
+        margin-top: 0.25rem;
+    }
+
+    .white-underline::after {
         height: 0.4rem;
         margin-top: 0.25rem;
     }
