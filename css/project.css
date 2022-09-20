@@ -19,7 +19,7 @@
 .list-points {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
     margin-top: 1rem;
 }
 
@@ -183,6 +183,10 @@
     gap: 1.5rem;
 }
 
+.quote-content h3 {
+    font-size: 2rem;
+}
+
 .quote-tag {
     display: flex;
     flex-direction: row;
@@ -283,7 +287,8 @@
     }
 
     h3 {
-        font-size: 1.75rem;
+        font-size: 1.75rem !important;
+        line-height: 2.25rem;
     }
 
     h4 {
