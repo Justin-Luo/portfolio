@@ -504,12 +504,18 @@ footer {
          height: auto;
      }
 
+     .project-grid {
+        justify-content: center;
+     }
+
     .project-row {
         flex-wrap: wrap;
     }
 
     .project-block {
         min-width: 95%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     body {
