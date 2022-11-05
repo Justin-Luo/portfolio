@@ -144,6 +144,14 @@
     margin: 4rem 2rem 4rem 2rem;
 }
 
+.help-ex {
+    height: 25vw;
+    width: auto;
+    min-height: 20rem;
+    max-height: 30rem;
+    margin: 4rem 1rem 4rem 1rem;
+}
+
 .two-line-text {
     display: flex;
     flex-direction: column;
@@ -210,6 +218,10 @@
 
 .margin-sm-spacer {
     margin: 2rem 0 2rem 0;
+}
+
+.margin-x-sm-spacer {
+    margin: 1rem 0 1rem 0;
 }
 
 .flex-column-group {
