@@ -357,6 +357,11 @@
     width: 40%;
     padding: 1rem;
     min-width: 15rem;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background-color: #F4F4F4;
 }
 
 .constant-card {
@@ -364,6 +369,11 @@
     background-color: white;
     width: 18rem;
     padding: 1rem 1.5rem 1rem 1.5rem;
+    transition: 0.3s;
+}
+
+.constant-card:hover {
+    background-color: #F4F4F4;
 }
 
 .small-two-line-text {
