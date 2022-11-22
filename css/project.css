@@ -433,15 +433,23 @@
 }
 
 .panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     width: 35%;
     min-width: 20rem;
     height: auto;
+    text-align: center !important;
 }
 
 .panel-lg {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     width: 65%;
     min-width: 40rem;
     height: auto;
+    text-align: center !important;
 }
 
 .panel-img {
@@ -556,6 +564,11 @@
 .proto-img {
     width: 100%;
     height: auto;
+}
+
+.caption-panel {
+    align-self: center;
+    margin-top: 1rem;
 }
 
 
