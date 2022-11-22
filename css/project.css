@@ -364,6 +364,10 @@
     background-color: #F4F4F4;
 }
 
+.non-button:hover {
+    background-color: white !important;
+}
+
 .constant-card {
     border-radius: 0.5rem;
     background-color: white;
@@ -735,7 +739,7 @@
         min-width: 0;
         width: 100%;
     }
-    
+
     .opportunity-statement {
         flex-wrap: wrap;
     }
