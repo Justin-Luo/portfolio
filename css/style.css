@@ -541,6 +541,9 @@ footer {
 
 @media only screen and (max-width: 409px) {
     
+    .navbar {
+        gap: 1.5rem;
+    }
 
     h1 {
         font-size: 1.5rem;
