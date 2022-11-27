@@ -480,6 +480,7 @@
 
 .card-link {
     text-decoration: none;
+    color: black;
 }
 
 .card-link:visited {
