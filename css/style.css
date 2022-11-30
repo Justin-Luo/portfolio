@@ -313,8 +313,8 @@ p {
 
 }
 
-.accessible-circuits {
-    background-image: url("../img/accessible-circuits.png");
+.digital-hallways {
+    background-image: url("../img/digital-hallways.png");
     background-size: cover;
 }
 
@@ -541,6 +541,9 @@ footer {
 
 @media only screen and (max-width: 409px) {
     
+    .navbar {
+        gap: 1.5rem;
+    }
 
     h1 {
         font-size: 1.5rem;
